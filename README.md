@@ -1,24 +1,37 @@
-# README
+## Fact Fun
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to the Fact Fun Backend!
 
-Things you may want to cover:
+## Demo
 
-* Ruby version
+[Try it!](https://mildlyconfused.github.io/Fact-Fun/test.html)
 
-* System dependencies
+## Motivation
 
-* Configuration
+Quite simply, whe discovered the CIA World Factbook API and thought, "how can we _not_ use this!?" It was extra fun too, because as part of our entrance exam we had to pass an infamous exercise known as "Hashketball", and the JSON data was so deeply nested this felt like "Hashketball 2!"
 
-* Database creation
+## Build Status
 
-* Database initialization
+Fact fun is likely in its final state.
 
-* How to run the test suite
+## Code Style
 
-* Services (job queues, cache servers, search engines, etc.)
+Indentation.
 
-* Deployment instructions
+## Frameworks
 
-* ...
+This app uses a Rails API backend to track user scores with a Vanilla Javascript.
+
+## Installation
+
+Clone it down and use the command `rails s` command to start the backend.
+
+## How to use
+
+When you've opened test.html from the frontend, either sign up or log in. Once you're logged in, you can play the game! Read over the facts presented, and click the one of four presented countries you believe is the country being described. If you're right, you get points! If not, you don't! Either way, it's fun!
+
+## License
+
+GNU
+
+## [Front-End Github](https://github.com/MildlyConfused/Fact-Fun)
